@@ -308,7 +308,7 @@ a{
 .experience-sections{
     display:flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     width:100%;
     background-color: whitesmoke;
     padding:32px 0;
@@ -420,6 +420,11 @@ a{
     box-shadow: 0 0 2px 1px rgba(0,0,0,0.2);
 }
 
+.teekhamomo{
+    width:400px;
+    margin:5px;
+}
+
 @keyframes up-down {
     0%{
         transform: translateY(-10px);
@@ -529,6 +534,18 @@ a{
         margin-top:24px;
     }
 
+    .teekhamomo{
+        width: 250px;
+    }
+
+    .teekhamomo-heading{
+        justify-content: center;
+    }
+
+    .teekhamomo-grid{
+        margin-bottom: 48px;
+    }
+
     .skill{
         justify-content: center;
         padding: 16px 0;
@@ -588,6 +605,11 @@ a{
         display: none;
     }
 
+    .social-work{
+        flex-direction: column !important;
+        margin-bottom: 48px;
+    }
+
     .experience-card{
         flex-direction: column;
     }
@@ -604,8 +626,12 @@ a{
 
     .experience-sections{
         flex-wrap: wrap;
-        margin-bottom: 64px;
         flex-direction: column-reverse;
+    }
+
+    .social-exp{
+        margin:20px 0;
+        text-align: center;
     }
 
     .campus-involvement{
@@ -727,6 +753,14 @@ a{
         font-size:18px;
     }
 
+    .teekhamomo{
+        width: 250px;
+    }
+
+    .teekhamomo-heading{
+        justify-content: center;
+    }
+
     /*  Project Section Starting    */
     .project-card{
         position: unset;
@@ -763,6 +797,8 @@ a{
         display: none;
     }
 
+
+
     .experience-card{
         flex-direction: column;
     }
@@ -779,9 +815,9 @@ a{
 
     .experience-sections{
         flex-wrap: wrap;
-        margin-bottom: 64px;
         flex-direction: column-reverse;
     }
+
 
     .campus-involvement{
         margin-bottom:48px;
@@ -881,6 +917,9 @@ a{
     .body-text{
         font-size:18px;
     }
+    .teekhamomo-heading{
+        justify-content: center;
+    }
 
     /*  Project Section Starting    */
 
@@ -912,7 +951,6 @@ a{
 
     .experience-sections{
         flex-wrap: wrap;
-        margin-bottom: 64px;
         flex-direction: column-reverse;
     }
 
@@ -942,7 +980,6 @@ a{
         width:600px;
         right: 200px;
     }
-
 
 
     .blob{

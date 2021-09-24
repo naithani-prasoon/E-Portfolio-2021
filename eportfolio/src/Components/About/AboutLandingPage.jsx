@@ -7,6 +7,7 @@ import Container from "@material-ui/core/Container";
 import SkillSection from "./SkillSection";
 import Text from "../Text/Text";
 import blob3 from "../Assets/blob-3.svg";
+import Teekhamomo from "./Teekhamomo";
 
 const useStyles = makeStyles((theme:Theme)=>({
 
@@ -72,6 +73,7 @@ function LandingPageAbout(){
                         critical to the forthcoming youth.
                     </div>
                 </div>
+                <Teekhamomo/>
             </Container>
         </div>
     )
