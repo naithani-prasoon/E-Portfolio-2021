@@ -58,14 +58,17 @@ function LandingPageProject(){
             </div>
             <Container className="project-container">
                 <Text variant={"paragraph-heading"} data={"PROJECTS."}/>
-                <ProjectCard projectName={"Pixmate"} projectDescription={"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen.\n"}
+                <ProjectCard projectName={"Pixmate"} projectDescription={"Developed a social-media application which has\n" +
+                "a user-authentication system, messaging feature, multi-media sharing platform, and live\n" +
+                "non-textual interaction between available users via WebSocket.\n"
+                }
                 githubBoolean={true} liveBoolean={false} image={cse312TeamProject} languages={[htmlLogo,cssLogo,jsLogo,pythonLogo,mongoLogo, dockerLogo]} link={"https://github.com/naithani-prasoon/CSE312-Project"}/>
 
                 <ProjectCard projectName={"Social Media Clone"} projectDescription={"Developed a social-media clone including a user authentication system, live messaging feature, and image uploading feature. Only used socket library of Python language to manipulate strings on the server side for receiving bits and sending bits.\n"}
                  githubBoolean={true} liveBoolean={false} image={cse312IndividualProject} languages={[htmlLogo,cssLogo,pythonLogo,mongoLogo,dockerLogo]} link={"https://github.com/naithani-prasoon/CSE-312"}/>
 
                 <ProjectCard projectName={"Raul Avila Inc."} projectDescription={"Utilizing Python’s Django framework created a backend that included a user authentication system, and inventory management. Using HTML, CSS, and JS created a dynamic frontend to allow employees to make changes to the website.\n"}
-                 githubBoolean={false} liveBoolean={true} image={raul} languages={[htmlLogo,cssLogo, jsLogo, djangoLogo, pythonLogo]} link={"https://github.com/naithani-prasoon/CSE-312"}/>
+                 githubBoolean={false} liveBoolean={true} image={raul} languages={[htmlLogo,cssLogo, jsLogo, djangoLogo, pythonLogo]} link={"https://raulavilainc.com"}/>
 
             </Container>
         </div>

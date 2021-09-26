@@ -13,7 +13,7 @@ import resumeDoc from "./Components/Assets/Prasoon's Resume.pdf"
 import arrowUpDark from './Components/Assets/buttons/arrow-up-dark.png';
 import resumeDark from "./Components/Assets/buttons/resume.png"
 import instagramDark from "./Components/Assets/buttons/instagram.png"
-import discordDark from "./Components/Assets/buttons/discord.png"
+import email from "./Components/Assets/buttons/email.svg"
 import linkedinDark from "./Components/Assets/buttons/linkedin.png"
 
 
@@ -45,8 +45,8 @@ function App() {
 
                             </button>
                             <div className={social ? 'social-icons-show' : 'social-icons'} >
-                                <a className="theme-toggle" href="https://www.instagram.com/prasoon_naithani/" target="_blank">
-                                    {theme === 'light' ? <img src={discordDark} alt={"Discord Icon"}/> : <img src={discordDark} alt={"Discord Icon"}/> }
+                                <a className="theme-toggle" href="mailto:prasoonnaithani@gmail.com" >
+                                    {theme === 'light' ? <img src={email} alt={"Email Icon"}/> : <img src={email} alt={"Email Icon"}/> }
                                 </a>
                                 <a className="theme-toggle" href="https://github.com/naithani-prasoon" target="_blank">
                                     {theme === 'light' ? <img src={github} alt={"Github Icon"}/> : <img src={github} alt={"Github Icon"}/> }

@@ -49,7 +49,6 @@ function NavigationLinks() {
             <div className={classes.nav}>
                 <div className={classes.logo}><h3>Prasoon Naithani</h3></div>
                 <div className="menu">
-                    <Link to="/" className="page-links">Home</Link>
                     <Link to="/about" className="page-links">About</Link>
                     <Link to="/experience" className="page-links">Experience</Link>
                     <Link to="/projects" className="page-links">Projects</Link>
@@ -57,7 +56,6 @@ function NavigationLinks() {
                 <div className="hamburger">
                     <img className="hamburger-icon" src={sidebar ? closeMenu : hamburgerMenu} onClick={showSidebar} />
                     <div className={sidebar ?  "hamburger-menu active" : "hamburger-menu"} onClick={showSidebar}>
-                        <Link to="/" className="hamburger-links">Home</Link>
                         <Link to="/about" className="hamburger-links">About</Link>
                         <Link to="/experience" className="hamburger-links">Experience</Link>
                         <Link to="/projects" className="hamburger-links">Projects</Link>
